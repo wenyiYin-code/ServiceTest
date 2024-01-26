@@ -20,6 +20,8 @@
             android:enabled="true"
             android:exported="true"></service>
 
+        <service android:name=".MyIntentService" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
